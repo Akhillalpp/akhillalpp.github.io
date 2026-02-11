@@ -23,54 +23,42 @@
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
+      "company": "National Institute of Technology Calicut",
+      "position": "Teaching Assistant – Signal Processing Lab",
+      "url": "https://nitc.ac.in",
+      "start_date": "08/2023",
+      "end_date": "07/2025",
+      "summary": "Assisted in conducting laboratory sessions and mentoring undergraduate students in signal processing courses",
       "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
-      ]
-    },
-    {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
-      "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
+        "Guided students in implementing signal processing algorithms using MATLAB",
+        "Supported lab evaluations and troubleshooting of signal processing experiments",
+        "Helped students understand practical applications of DSP concepts"
       ]
     }
+
   ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
+      "title": "Retinal Layer Segmentation using SD-OCT Images with Deep Learning",
+      "summary": "Developed a lightweight deep learning framework for accurate retinal layer segmentation from OCT scans, balancing segmentation accuracy with computational efficiency.",
+      "url": "https://github.com/akhillalpp",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
+        "Designed and trained a deep learning model for multi-class retinal layer segmentation",
+        "Worked with medical OCT image datasets and handled class imbalance challenges",
+        "Evaluated performance using Dice score and other segmentation metrics"
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
+          "img_path": "img/Subject_10_07.png",
+          "caption": "Input"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
+          "img_path": "img/Label_Subject_10_07.png",
+          "caption": "Ground Truth"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
+          "img_path": "img/MRUnet_Subject_10_07.png",
+          "caption": "Output"
         }
       ]
     },
