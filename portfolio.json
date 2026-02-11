@@ -1,23 +1,23 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "AKHIL LAL P.P",
+  "label": "Signal Processing & Computer Vision Engineer",
+  "image_path": "img/IMG_7666 copy (1)default-image.png",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "98lihka@gmail.com",
+    "phone": "+91-7012698909",
+    "location": "Calicut, Kerala, India"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "Signal Processing master's graduate specializing in Computer Vision and Deep Learning. Experienced in medical image segmentation, Python, and PyTorch. Passionate about solving real-world problems using AI.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
-      "label": "Personal Website",
-      "url": "https://sample.com",
+      "label": "GitHub",
+      "url": "https://github.com/akhillalpp",
       "svg_path": "img/globe.svg"
     },
     {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/akhillal",
       "svg_path": "img/linkedin.svg"
     },
     {
