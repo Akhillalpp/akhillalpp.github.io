@@ -3,70 +3,93 @@
 <head>
   <title>Akhil Lal | Personal</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: white;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+      color: #0f172a;
       text-align: center;
     }
 
     .container {
-      max-width: 500px;
+      max-width: 480px;
       margin: auto;
-      padding: 60px 20px;
+      padding: 80px 20px 60px;
     }
 
     h1 {
-      margin-bottom: 5px;
-      font-size: 32px;
+      margin-bottom: 8px;
+      font-size: 34px;
+      font-weight: 600;
     }
 
     .tagline {
-      color: #94a3b8;
-      margin-bottom: 40px;
+      color: #475569;
+      margin-bottom: 50px;
+      font-size: 15px;
     }
 
-    .link-btn {
-      display: block;
-      background: #1e293b;
-      color: white;
+    .links {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-bottom: 50px;
+    }
+
+    .icon-btn {
+      background: white;
+      border-radius: 16px;
+      padding: 22px 0;
+      font-size: 26px;
+      color: #0f172a;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      transition: all 0.25s ease;
       text-decoration: none;
-      padding: 15px;
-      margin: 12px 0;
-      border-radius: 12px;
-      font-size: 16px;
-      transition: 0.2s ease;
     }
 
-    .link-btn:hover {
-      background: #334155;
-      transform: scale(1.03);
+    .icon-btn:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+      color: #2563eb;
     }
 
     .back {
-      margin-top: 40px;
       display: inline-block;
-      color: #94a3b8;
+      margin-top: 10px;
+      color: #64748b;
       text-decoration: none;
       font-size: 14px;
     }
 
+    .back:hover {
+      color: #2563eb;
+    }
+
+    @media (max-width: 400px) {
+      .links {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Akhil Lal</h1>
-    <div class="tagline">Engineer • Music • Films</div>
+    <div class="tagline">Engineer by training • Creator at heart • Exploring sound & cinema</div>
 
-    <a class="link-btn" href="https://instagram.com/YOURUSERNAME">📸 Instagram</a>
-    <a class="link-btn" href="https://youtube.com/@YOURCHANNEL">🎬 YouTube</a>
-    <a class="link-btn" href="https://soundcloud.com/YOURPROFILE">🎵 SoundCloud</a>
-    <a class="link-btn" href="https://letterboxd.com/YOURPROFILE">🎥 Letterboxd</a>
-    <a class="link-btn" href="https://serializd.com/user/YOURPROFILE">📺 Serializd</a>
-    <a class="link-btn" href="https://twitter.com/YOURPROFILE">🐦 Twitter/X</a>
-    <a class="link-btn" href="https://facebook.com/YOURPROFILE">👥 Facebook</a>
+    <div class="links">
+      <a class="icon-btn" href="https://instagram.com/YOURUSERNAME" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a class="icon-btn" href="https://youtube.com/@YOURCHANNEL" title="YouTube"><i class="fab fa-youtube"></i></a>
+      <a class="icon-btn" href="https://soundcloud.com/YOURPROFILE" title="SoundCloud"><i class="fab fa-soundcloud"></i></a>
+      <a class="icon-btn" href="https://letterboxd.com/YOURPROFILE" title="Letterboxd"><i class="fas fa-film"></i></a>
+      <a class="icon-btn" href="https://serializd.com/user/YOURPROFILE" title="Serializd"><i class="fas fa-tv"></i></a>
+      <a class="icon-btn" href="https://twitter.com/YOURPROFILE" title="Twitter"><i class="fab fa-x-twitter"></i></a>
+      <a class="icon-btn" href="https://facebook.com/YOURPROFILE" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a class="icon-btn" href="https://linkedin.com/in/YOURPROFILE" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a class="icon-btn" href="https://github.com/YOURPROFILE" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
 
     <a class="back" href="/">← Back to Portfolio</a>
   </div>
