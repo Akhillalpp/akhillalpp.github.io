@@ -9,9 +9,3 @@ This repository contains the files used to build and deploy my portfolio site.
 - Signal Processing
 - Computer Vision
 - Machine Learning
-
-## Tech Stack
-
-- Python
-- HTML / CSS
-- GitHub Pages
