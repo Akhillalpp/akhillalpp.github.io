@@ -73,16 +73,16 @@
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
+          "img_path": "img/parking 1.PNG",
+          "caption": "An irregular parking lot"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
+          "img_path": "img/parking 2.PNG",
+          "caption": "Detection for test image-1"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
+          "img_path": "img/parking 3.PNG",
+          "caption": "Detection for test image-2"
         }
       ]
     }
