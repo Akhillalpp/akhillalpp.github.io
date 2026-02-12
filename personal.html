@@ -8,57 +8,70 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, sans-serif;
-      background: linear-gradient(135deg, #f8fafc, #e2e8f0);
-      color: #0f172a;
-      text-align: center;
+      background: #f9fafb;
+      color: #111827;
+      line-height: 1.7;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .nav .name {
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .nav-icons a {
+      color: #374151;
+      margin-left: 18px;
+      font-size: 18px;
+      transition: 0.2s;
+    }
+
+    .nav-icons a:hover {
+      color: #2563eb;
     }
 
     .container {
-      max-width: 480px;
-      margin: auto;
-      padding: 80px 20px 60px;
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 0 20px;
     }
 
     h1 {
-      margin-bottom: 8px;
-      font-size: 34px;
-      font-weight: 600;
+      font-size: 36px;
+      margin-bottom: 10px;
     }
 
-    .tagline {
-      color: #475569;
+    .intro {
+      color: #4b5563;
       margin-bottom: 50px;
-      font-size: 15px;
+      font-size: 18px;
     }
 
-    .links {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 18px;
+    .post {
       margin-bottom: 50px;
     }
 
-    .icon-btn {
-      background: white;
-      border-radius: 16px;
-      padding: 22px 0;
-      font-size: 26px;
-      color: #0f172a;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-      transition: all 0.25s ease;
-      text-decoration: none;
+    .post h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
     }
 
-    .icon-btn:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 12px 25px rgba(0,0,0,0.12);
-      color: #2563eb;
+    .post p {
+      color: #374151;
     }
 
     .back {
       display: inline-block;
-      margin-top: 10px;
-      color: #64748b;
+      margin-top: 40px;
+      color: #6b7280;
       text-decoration: none;
       font-size: 14px;
     }
@@ -66,32 +79,55 @@
     .back:hover {
       color: #2563eb;
     }
-
-    @media (max-width: 400px) {
-      .links {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Akhil Lal</h1>
-    <div class="tagline">Engineer by training • Creator at heart • Exploring sound & cinema</div>
 
-    <div class="links">
-      <a class="icon-btn" href="https://instagram.com/YOURUSERNAME" title="Instagram"><i class="fab fa-instagram"></i></a>
-      <a class="icon-btn" href="https://youtube.com/@YOURCHANNEL" title="YouTube"><i class="fab fa-youtube"></i></a>
-      <a class="icon-btn" href="https://soundcloud.com/YOURPROFILE" title="SoundCloud"><i class="fab fa-soundcloud"></i></a>
-      <a class="icon-btn" href="https://letterboxd.com/YOURPROFILE" title="Letterboxd"><i class="fas fa-film"></i></a>
-      <a class="icon-btn" href="https://serializd.com/user/YOURPROFILE" title="Serializd"><i class="fas fa-tv"></i></a>
-      <a class="icon-btn" href="https://twitter.com/YOURPROFILE" title="Twitter"><i class="fab fa-x-twitter"></i></a>
-      <a class="icon-btn" href="https://facebook.com/YOURPROFILE" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-      <a class="icon-btn" href="https://linkedin.com/in/YOURPROFILE" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-      <a class="icon-btn" href="https://github.com/YOURPROFILE" title="GitHub"><i class="fab fa-github"></i></a>
+  <div class="nav">
+    <div class="name">Akhil Lal</div>
+    <div class="nav-icons">
+      <a href="https://github.com/YOURPROFILE" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/YOURPROFILE" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://instagram.com/YOURUSERNAME" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://youtube.com/@YOURCHANNEL" title="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Hi, I’m Akhil.</h1>
+    <div class="intro">
+      I build with code, think in signals, and feel through music & film.
+      This space is where I share thoughts beyond my professional work.
+    </div>
+
+    <div class="post">
+      <h2>What I’m Exploring Now</h2>
+      <p>
+        Lately I’ve been diving deeper into computer vision, experimenting with
+        creative coding ideas, and learning how music theory connects with patterns
+        I see in signal processing. I like finding bridges between technical and creative worlds.
+      </p>
+    </div>
+
+    <div class="post">
+      <h2>Why Signal Processing Still Fascinates Me</h2>
+      <p>
+        Signals are stories told through data. Whether it's an image, a sound wave,
+        or a neural network activation — everything is a transformation of patterns.
+        That idea keeps pulling me back.
+      </p>
+    </div>
+
+    <div class="post">
+      <h2>Notes From Learning Music</h2>
+      <p>
+        Learning music has been humbling. It reminds me that creativity isn’t just
+        inspiration — it’s repetition, listening, and small improvements over time.
+      </p>
     </div>
 
     <a class="back" href="/">← Back to Portfolio</a>
   </div>
+
 </body>
 </html>
